@@ -84,8 +84,8 @@ public:
   cin>>snum;
   cout<<": ENTER NUMBER OF SUB-SECTIONS                      = ";
   cin>>subnum;
-  sub = subnum;
-  for(int i = 0 ; i < subnum ; i++)
+  sub=subnum;
+  for(int i=0; i<subnum; i++)
   {
    cout<<endl<<"Sub-Section "<<chnum<<"."<<snum<<"."<<i+1<<" = ";
    cin>>subname;
